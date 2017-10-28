@@ -1,0 +1,145 @@
+/*COLOURS*/
+/*FONTS*/
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/aleo/aleo-regular-webfont.woff2") format("woff2"), url("../fonts/aleo/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo/aleo-regular-webfont.ttf") format("truetype"), url("../fonts/aleo/aleo-regular-webfont.eot") format("eot");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Aleo Bold";
+  src: url("../fonts/aleo/aleo-bold-webfont.woff2") format("woff2"), url("../fonts/aleo/aleo-bold-webfont.woff") format("woff"), url("../fonts/aleo/aleo-bold-webfont.ttf") format("truetype"), url("../fonts/aleo/aleo-bold-webfont.eot") format("eot");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*MIXINS*/
+body {
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  width: 570px;
+  height: 144px;
+  font-family: "Aleo", serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; }
+
+h2 {
+  font-family: "Aleo", serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000; }
+
+h3 {
+  font-family: Aleo;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: left;
+  color: #000000; }
+
+@media (max-width: 767px) {
+  .user {
+    display: none; } }
+#site_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  #site_menu ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; }
+
+.nav-item .nav-link {
+  font-family: "Aleo", serif;
+  font-size: 15px;
+  color: #ffffff !important; }
+.nav-item :hover {
+  color: #d3d3d3 !important; }
+
+.user_thumb {
+  margin-top: .5rem;
+  width: 18px;
+  height: 18px; }
+
+.nav-link {
+  padding: .5rem .2rem;
+  font-size: 15px;
+  color: #ffffff; }
+
+.fixed-top {
+  background: #000000; }
+
+.fa-camera {
+  padding-right: .5rem;
+  color: #ffffff; }
+
+#site_logo {
+  font-family: "Aleo Bold", serif;
+  color: #ffffff; }
+
+.menu_user {
+  display: flex;
+  justify-content: flex-end; }
+
+.main_body .main_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 0 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/loft.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0; }
+.main_body .latest_news {
+  padding-top: 2rem; }
+.main_body .post_visual {
+  padding-bottom: 1rem;
+  max-width: 100%;
+  height: auto; }
+.main_body .post_prev {
+  padding-top: 1rem; }
+  .main_body .post_prev p {
+    padding-right: 1rem;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000; }
+.main_body .post_social {
+  display: flex;
+  justify-content: flex-start; }
+  .main_body .post_social img {
+    margin-bottom: 1rem;
+    margin-right: 1rem; }
+  .main_body .post_social p {
+    font-family: "Roboto Medium", sans-serif;
+    color: rgba(0, 0, 0, 0.4); }
+.main_body .load_more {
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  margin: 2rem auto;
+  width: 90%;
+  padding: .5rem;
+  border: 1px solid #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Aleo Bold", serif;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 2.4px;
+  text-align: center;
+  color: #000000; }
+.main_body hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.4); }
+
+/*# sourceMappingURL=style.css.map */

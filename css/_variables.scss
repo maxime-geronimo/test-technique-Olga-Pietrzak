@@ -1,0 +1,54 @@
+/*COLOURS*/
+
+$black: #000000;
+$white: #ffffff;
+$grey: #d3d3d3;
+$grey_dark: rgba(0, 0, 0, 0.4);
+
+/*FONTS*/
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/aleo/aleo-regular-webfont.woff2") format("woff2"),
+       url("../fonts/aleo/aleo-regular-webfont.woff") format("woff"),
+       url("../fonts/aleo/aleo-regular-webfont.ttf") format("truetype"),
+       url("../fonts/aleo/aleo-regular-webfont.eot") format("eot");
+    	font-weight: normal;
+    	font-style: normal;
+}
+
+@font-face {
+  font-family: "Aleo Bold";
+  src: url("../fonts/aleo/aleo-bold-webfont.woff2") format("woff2"),
+       url("../fonts/aleo/aleo-bold-webfont.woff") format("woff"),
+       url("../fonts/aleo/aleo-bold-webfont.ttf") format("truetype"),
+       url("../fonts/aleo/aleo-bold-webfont.eot") format("eot");
+    	font-weight: bold;
+    	font-style: normal;
+}
+
+$aleo: 'Aleo', serif;
+$aleo_bold: 'Aleo Bold', serif;
+
+
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+    	font-weight: normal;
+    	font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+    	font-weight: normal;
+    	font-style: normal;
+}
+
+
+$roboto: 'Roboto', sans-serif;
+$roboto_medium: 'Roboto Medium', sans-serif;
+
+/*MIXINS*/
+

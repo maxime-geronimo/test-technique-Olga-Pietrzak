@@ -1,0 +1,35 @@
+body{
+	font-family: $roboto;
+}
+
+
+h1{
+	  width: 570px;
+	  height: 144px;
+
+	  font-family: $aleo;
+	  font-size: 60px;
+	  font-weight: bold;
+	  text-align: center;
+	  
+	  color: $white;
+}
+
+h2{
+	font-family: $aleo;
+  	font-size: 40px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	color: $black;
+
+}
+
+h3{
+  font-family: Aleo;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: left;
+  color: $black;
+}
+

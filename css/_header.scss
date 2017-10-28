@@ -1,0 +1,73 @@
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+.user{
+	display: none;
+}
+}
+
+
+
+#site_menu{
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;
+
+	ul{
+		display: flex;
+		justify-content: flex-end;
+
+		width: 100%;
+	}
+}
+
+
+.nav-item{
+	.nav-link{
+		font-family: $aleo;
+		font-size: 15px;
+
+		color: $white !important;
+	}	
+
+	:hover{
+			color: $grey !important;	
+	}
+
+}
+
+.user_thumb{
+	margin-top: .5rem;
+	width: 18px;
+	height: 18px;
+}
+
+
+.nav-link{
+	padding: .5rem .2rem;
+	font-size: 15px;
+
+	color: $white;
+}
+
+
+.fixed-top{
+	background: $black;
+}
+
+.fa-camera{
+	padding-right: .5rem;
+	color: $white;
+}
+
+#site_logo{
+	font-family: $aleo_bold;
+
+	color: $white;
+}
+
+
+.menu_user{
+	display: flex;
+	justify-content: flex-end;
+}

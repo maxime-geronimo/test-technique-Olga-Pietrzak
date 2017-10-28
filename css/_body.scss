@@ -1,0 +1,89 @@
+.main_body{
+
+	.main_banner{
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		padding: 12rem 0 10rem;
+
+		background: linear-gradient(
+					rgba(0,0,0,.3),
+					rgba(0,0,0,.3)
+					),
+					url(../img/loft.jpeg);
+	    background-repeat: no-repeat;
+ 	   	background-attachment: fixed;
+ 		background-position: center 0; 	
+	}
+
+	.latest_news{
+		padding-top: 2rem;
+	}
+
+	.post_visual{
+		padding-bottom: 1rem;
+
+		max-width: 100%;
+		height: auto;
+	}
+
+	.post_prev{
+		padding-top: 1rem;
+
+		p{
+			padding-right: 1rem;
+			font-size: 16px;
+			line-height: 1.5;
+
+			color: $black;
+		}
+	}
+
+	.post_social{
+		display: flex;
+		justify-content: flex-start;
+
+		img{
+			margin-bottom: 1rem;
+			margin-right: 1rem;
+		}
+
+		p{
+			font-family: $roboto_medium;
+			color: $grey_dark;
+		}
+	}
+
+	.load_more{
+		display: block;
+
+		-webkit-margin-before:0em;
+		-webkit-margin-after:0em;
+		margin: 2rem auto;
+
+		width: 90%;
+		padding: .5rem;
+
+
+		border: 1px solid $black;
+
+		text-align: center;
+		text-transform: uppercase;
+
+	  font-family: $aleo_bold;
+	  font-size: 20px;
+	  line-height: 2;
+	  letter-spacing: 2.4px;
+	  text-align: center;
+	  color: $black;		
+
+	}
+
+	hr{
+		border-top: 1px solid $grey_dark;
+	}
+
+
+}
